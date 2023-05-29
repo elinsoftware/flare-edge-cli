@@ -1,0 +1,31 @@
+{
+  "name": "@flaredev.io/flare-edge",
+  "version": "1.1.9",
+  "description": "Package for deploying ServiceNow web applications to FlareEdge",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "flare-edge deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elinsoftware/flare-edge-cli.git"
+  },
+  "keywords": ["ServiceNow", "FlareEdge", "ELIN Software Corp."],
+  "author": "ELIN Software Corp.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/elinsoftware/flare-edge-cli/issues"
+  },
+  "homepage": "https://github.com/elinsoftware/flare-edge-cli#readme",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "async-sema": "^3.1.1",
+    "axios": "^1.4.0",
+    "form-data": "^4.0.0",
+    "kleur": "^4.1.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
