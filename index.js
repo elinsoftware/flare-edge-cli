@@ -179,7 +179,7 @@ const deployCodeToServiceNow = async () => {
 };
 
 async function main() {
-  console.log('FlareEdge v1.2.0');
+  console.log('FlareEdge v1.2.1');
   console.log('Cleaning up...')
   await deleteContainerContents();
   console.log('Deploying to FlareEdge...')
