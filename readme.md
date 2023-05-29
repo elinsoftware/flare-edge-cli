@@ -75,7 +75,7 @@ This command will read the `flare-edge.config.json` file, and deploy the content
 
 ## Support
 
-If you encounter any issues or need help, please visit the [official GitHub repository](https://github.com/elinsoftware/flare-edge-package) and open an issue or submit a pull request.
+If you encounter any issues or need help, please visit the [official GitHub repository](https://github.com/elinsoftware/flare-edge-cli) and open an issue or submit a pull request.
 
 ## License
 
