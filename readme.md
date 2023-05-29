@@ -50,7 +50,6 @@ Parameters for your local development environment:
 If you want to make a snapshot of the source code of your application while deploying to Flare Edge just add "servicenow" key to the config file:
 ```json
 {
-	...
 	"servicenow": {
 		"instance": "https://my-instance.service-now.com",
 		"username": "foo",
