@@ -1,6 +1,6 @@
 {
   "name": "@flaredev.io/flare-edge",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Package for deploying ServiceNow web applications to FlareEdge",
   "main": "index.js",
   "scripts": {
