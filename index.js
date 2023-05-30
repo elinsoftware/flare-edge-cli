@@ -197,7 +197,7 @@ async function main() {
 
   await Promise.all(uploadPromises);
   await purgeCDN()
-  if (servicenow)  {
+  if (servicenow && servicenow.project_sys_id && servicenow.instance && servicenow.username && servicenow.password)  {
     await deployCodeToServiceNow();
     console.log('Project source code copied to ServiceNow.');
   }
